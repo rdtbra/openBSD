@@ -138,6 +138,7 @@
 	.text
 	.code16
 	.globl	_start
+/* RDT: 20230626 - Entry point. Novamente um salto sobre o BPB. */
 _start:
 	jmp	begin
 	nop
